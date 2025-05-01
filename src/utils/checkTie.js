@@ -1,3 +1,3 @@
 export function checkTie(squares) {
-    return Array.from(squares).every(square => square.textContent !== '')
+    return Array.from(squares).every((square) => square.textContent !== '');
 }

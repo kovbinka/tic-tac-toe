@@ -1,21 +1,21 @@
-let players = ['❌', '⭕']
-let currentPlayer = players[0]
-let someoneWon = false
+let players = ['❌', '⭕'];
+let currentPlayer = players[0];
+let someoneWon = false;
 
-export { players }
+export { players };
 
 export function getCurrentPlayer() {
-    return currentPlayer
+    return currentPlayer;
 }
 
 export function setCurrentPlayer(value) {
-    currentPlayer = value
+    currentPlayer = value;
 }
 
 export function getSomeoneWon() {
-    return someoneWon
+    return someoneWon;
 }
 
 export function setSomeoneWon(value) {
-    someoneWon = value
+    someoneWon = value;
 }
