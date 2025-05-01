@@ -1,6 +1,6 @@
 import { createMessage, updateMessage } from './components/message.js'
 import { setupListeners } from './listeners/squareListeners.js'
-import { restartGame } from './handlers/gameHandler.js'
+import { restartGame } from './handlers/resetHandler.js'
 
 document.addEventListener("DOMContentLoaded", () => {
     createMessage("X's turn!")
